@@ -1,3 +1,158 @@
+\documentclass{article}
+\usepackage{graphicx} % Required for inserting images
+
+\title{Parameter Estimation and Inverse Theory\\ Assignment 1}
+\author{Parth Gupte}
+\date{13th September 2023}
+
+\begin{document}
+
+\maketitle
+\section{Q1}
+\subsection{Experimental Procedure:}
+In this experiment we generated:\\
+\begin{enumerate}
+    \item A random model with degree 3 and parameter values between -10 and 10.
+    \item 20 random data points from this model with range of x values in -10 and 10 and y values having 10\% Gaussian noise.
+\end{enumerate}
+We then estimate an L2 model that fits these data points.\\
+
+\subsection{Outcomes:}
+\begin{enumerate}
+    \item Estimated and True Parameter table (increasing order of degree):\\
+    \\
+    \begin{tabular}{|c|c|} 
+        \hline 
+       True Model & Estimated Model\\ 
+       \hline 
+       0.9762700785464951 & 0.21448703477967523\\ 
+       \hline 
+       4.30378732744839 & 7.197065172027351\\ 
+       \hline 
+       2.055267521432878 & 1.8190459732807414\\ 
+       \hline 
+       0.8976636599379368 & 0.8935207167011852\\ 
+       \hline 
+    \end{tabular}
+\clearpage
+    \item Curve fitting plot:\\
+    \begin{figure}[h]
+        \centering
+        \includegraphics[width = 15 cm]{figs/Q1plot.png}
+        \caption{L2 fit with noisy data}
+    \end{figure}
+\clearpage
+    \item Data Resolution Matrix Image:
+    \begin{figure}[h]
+        \centering
+        \includegraphics[width = 15 cm]{figs/Q1dataresmtrix.png}
+        \caption{Data Resolution Matrix}
+    \end{figure}
+\clearpage
+    \item Model Resolution Matrix:
+    \begin{figure}[h]
+        \centering
+        \includegraphics[width = 15 cm]{figs/Q1modelresmatrix.png}
+        \caption{Model Resolution Matrix}
+    \end{figure}
+\clearpage
+\end{enumerate}
+
+\subsection{Observations:}
+\begin{enumerate}
+    \item The L2 norm solution fits well to the noisy data.
+    \item The Model resolution matrix is nearly the identity matrix, that means the estimated model is very close to the real model.
+    \item 
+\end{enumerate}
+
+\section{Q2}
+\subsection{Experimental Procedure:}
+
+In this experiment we:
+\begin{enumerate}
+    \item Skewed the y value of one of the points to make it an outlier.
+    \item Estimated an L1 model for the data (tolerance = 0.5).
+    \item Estimated an L2 model for the data.
+\end{enumerate}
+
+\subsection{Outcomes:}
+
+\begin{enumerate}
+    \item Estimated and True Parameter values (increasing order of degree):\\\\
+    \begin{tabular}{|c|c|c|} 
+        \hline 
+       True Model & L1 Estimated Model & L2 Estimated Model\\ 
+       \hline 
+       0.9762700785464951 & 14.283590517938137 & 75.78986897228734\\ 
+       \hline 
+       4.30378732744839 & 4.568483171751723 & -9.386595257710752\\ 
+       \hline 
+       2.055267521432878 & 1.9189171649341006 & 0.9148557125311957\\ 
+       \hline 
+       0.8976636599379368 & 0.8946313395790639 & 1.1023668406951843\\ 
+       \hline 
+       \end{tabular}
+\clearpage
+       \item Curve fitting plot:
+       \begin{figure}[h]
+            \centering
+            \includegraphics[width = 15 cm]{figs/Q2plots.png}
+        \caption{Comaparison of L1 and L2 estimate}
+    \end{figure}
+\clearpage
+        \item Curves at each iteration
+        \begin{figure}[h]
+            \centering
+            \includegraphics[width = 15 cm]{figs/L1iterplot.png}
+        \caption{Plots at each iteration}
+    \end{figure}
+\clearpage
+\end{enumerate}
+
+\subsection{Observations:}
+\begin{enumerate}
+    \item L2 model performs worse than L1 on data with an outlier.
+    \item L1 model converges to an accurate solution fairly quickly.
+    \item L1 model is not very affected by the outlier data point but L2 is.
+\end{enumerate}
+
+\section{Q3}
+\subsection{Experimental Procedure:}
+In this experiment we used constraint optimization techinques to fit a 3 degree polynomial to the data such that it passes through 2 of the randomly choosen points perfectly.\\
+
+\subsection{Outcomes:}
+\begin{enumerate}
+    \item Estimated and True Parameter Values (increasing order of degree):\\
+    \\
+    \begin{tabular}{|c|c|} 
+        \hline 
+       True Model & Estimated Model\\ 
+       \hline 
+       0.9762700785464951 & -2.8436627173615534\\ 
+       \hline 
+       4.30378732744839 & -0.6246210348928685\\ 
+       \hline 
+       2.055267521432878 & 1.8487298229849463\\ 
+       \hline 
+       0.8976636599379368 & 0.9908810802375109\\ 
+       \hline 
+    \end{tabular}
+\clearpage
+    \item Curve fitting plot:\\
+    \begin{figure}[h]
+        \centering
+        \includegraphics[width = 15 cm]{figs/Q3plots.png}
+    \caption{Constrained fit}
+\end{figure}
+\end{enumerate}
+
+\subsection{Observations:}
+\begin{enumerate}
+    \item The curve passes perfectly through the constraint points.
+\end{enumerate}
+
+\section{Python Code:}
+\begin{verbatim}
 import numpy as np
 import matplotlib.pyplot as plt
 import csv
@@ -206,3 +361,10 @@ numpy_to_csv_Q3(np.concatenate((m,m_contr_est),axis=1))
 
 
 
+
+\end{verbatim}
+
+
+
+
+\end{document}
