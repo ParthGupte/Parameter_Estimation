@@ -24,13 +24,16 @@ def lst_indx_to_arr_indx(indx,arr_shape):
     arr_idx.reverse()
     return arr_idx
      
-img_name = "vermeil.png"
+img_name = "creeper32bit.png"
 
 img = get_img(img_name)
 arr = get_array(img)
 
+# img.show()
 img_shape = arr.shape
-
+print(img_shape)
+new_img = Image.fromarray(arr)
+# new_img.show()
 
 #making grid for passing light
 grid = Grid(1,dim=2)
@@ -39,14 +42,14 @@ source_pts = [(-0.5,img_shape[1]/2),(img_shape[0]/2,-0.5),(img_shape[0]+0.5,img_
 cells_information = []
 for source in source_pts:
     print(source)
-    for deg in range(0,180):
+    for deg in range(0,180,2):
         line = Line(deg,source)
         cells = get_crossing_cells(grid,line,((0,img_shape[0]),(0,img_shape[1])))
         # print(cells)
         cells_information.append(cells)
 
 #making F and d
-F = np.zeros((len(cells_information),prod(img_shape)),dtype=np.int8)
+F = np.zeros((len(cells_information),prod(img_shape)))
 
 for i in range(len(cells_information)):
     print(i)
@@ -65,8 +68,8 @@ est_arr = np.reshape(m_est,img_shape)
 est_img = Image.fromarray(est_arr)
 est_img.show()
 
-# arr_idx = (10,5)
-# arr_shape = (11,6)
+# # # arr_idx = (10,5)
+# # arr_shape = (11,6)
 # lst_idx = arr_indx_to_lst_indx(arr_idx,arr_shape)
 # print(lst_idx)
 # new_arr_idx = lst_indx_to_arr_indx(lst_idx,arr_shape)
