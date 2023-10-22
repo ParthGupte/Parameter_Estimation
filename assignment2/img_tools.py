@@ -6,7 +6,7 @@ def get_img(img_name):
     return img
 
 def get_array(img):
-    arr = np.array(img)
+    arr = np.array(img)[:,:,0]
     return arr
 
 # img = get_img("vermeil.png")

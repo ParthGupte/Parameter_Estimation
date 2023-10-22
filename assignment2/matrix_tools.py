@@ -32,6 +32,12 @@ def plot_model(m:np.ndarray,label:str,color:str):
     X = np.linspace(-10,10,100)
     plt.plot(X,poly_obj(X),label = label,c = color)   
 
+def matrix_img(M:np.ndarray,title:str):
+    plt.imshow(M)
+    plt.title(title)
+    plt.colorbar()
+
+
 # m = generate_random_model(6,(-1,1))
 # F,d = gen_random_data(m,size =3 ,noise=0)
 # m_est = tikonov_est(F,d,k=1)

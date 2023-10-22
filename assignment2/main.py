@@ -23,77 +23,98 @@ def lst_indx_to_arr_indx(indx,arr_shape):
         arr_idx.append(idx)
     arr_idx.reverse()
     return arr_idx
-     
-img_name = "creeper32bit.png"
 
-img = get_img(img_name)
-arr = get_array(img)
+with_noise = True
 
-# img.show()
-img_shape = arr.shape
-print(img_shape)
-new_img = Image.fromarray(arr)
-# new_img.show()
+img_names = ["alban-modified","aztec-modified","aztec2-modified","bee_nest_front_honey-modified","carved_pumpkin-modified","cow","creeper","fletching_table_front-modified","grass_block_side-modified","sheep","skeleton","steve","zombie"] 
+for img_name in img_names:
+    img = get_img(img_name+".png")
+    arr = get_array(img)
 
-#making grid for passing light
-grid = Grid(1,dim=2)
+    # img.show()
+    img_shape = arr.shape
+    print(img_shape)
+    new_img = Image.fromarray(arr)
+    # new_img.show()
 
-#passing light
-cells_information = []
-# light passing from below to up
-for x in range(img_shape[0]):
-    source = (x+0.5,-1)
-    ray = Line(91,source)
-    cells = get_crossing_cells(grid,ray,((0,img_shape[0]),(0,img_shape[1])))
-    cells_information.append(cells)
-#light passing from left to right
-for y in range(img_shape[1]):
-    source = (-1,y+0.5)
-    ray = Line(1,source)
-    cells = get_crossing_cells(grid,ray,((0,img_shape[0]),(0,img_shape[1])))
-    cells_information.append(cells)
+    #making grid for passing light
+    grid = Grid(1,dim=2)
 
-#light passing from diagonals
-line1 = Line(135,(-1,-1))
-num_sources = int(2*mt.ceil((img_shape[0]**2 + img_shape[1]**2)**(1/2)))
-sources = line1.get_points_distanced(0.5,num_sources)
-sources.extend(line1.get_points_distanced(-0.5,num_sources))
-for source in sources:
-    ray = Line(45,source)
-    cells = get_crossing_cells(grid,ray,((0,img_shape[0]),(0,img_shape[1])))
-    cells_information.append(cells)
+    #passing light
+    cells_information = []
+    # light passing from below to up
+    for x in range(img_shape[0]):
+        source = (x+0.5,-1)
+        ray = Line(91,source)
+        cells = get_crossing_cells(grid,ray,((0,img_shape[0]),(0,img_shape[1])))
+        cells_information.append(cells)
+    #light passing from left to right
+    for y in range(img_shape[1]):
+        source = (-1,y+0.5)
+        ray = Line(1,source)
+        cells = get_crossing_cells(grid,ray,((0,img_shape[0]),(0,img_shape[1])))
+        cells_information.append(cells)
 
-line2 = Line(45,(img_shape[0]+1,img_shape[1]+1))
-sources = line2.get_points_distanced(0.5,num_sources)
-sources.extend(line2.get_points_distanced(-0.5,num_sources))
-for source in sources:
-    ray = Line(135,source)
-    cells = get_crossing_cells(grid,ray,((0,img_shape[0]),(0,img_shape[1])))
-    cells_information.append(cells)
+    #light passing from diagonals
+    line1 = Line(135,(-1,-1))
+    num_sources = int(2*mt.ceil((img_shape[0]**2 + img_shape[1]**2)**(1/2)))
+    sources = line1.get_points_distanced(0.5,num_sources)
+    sources.extend(line1.get_points_distanced(-0.5,num_sources))
+    for source in sources:
+        ray = Line(45,source)
+        cells = get_crossing_cells(grid,ray,((0,img_shape[0]),(0,img_shape[1])))
+        cells_information.append(cells)
 
-
-
-
-
-#making F and d
-F = np.zeros((len(cells_information),prod(img_shape)))
-
-for i in range(len(cells_information)):
-    print(i)
-    cells = cells_information[i] 
-    for cell in cells:
-        lst_idx = arr_indx_to_lst_indx(cell,img_shape)
-        F[i,lst_idx] = 1
+    line2 = Line(45,(img_shape[0]+1,img_shape[1]+1))
+    sources = line2.get_points_distanced(0.5,num_sources)
+    sources.extend(line2.get_points_distanced(-0.5,num_sources))
+    for source in sources:
+        ray = Line(135,source)
+        cells = get_crossing_cells(grid,ray,((0,img_shape[0]),(0,img_shape[1])))
+        cells_information.append(cells)
 
 
-m_real = np.reshape(arr,(prod(img_shape),1))
 
-d = np.matmul(F,m_real)
 
-m_est = tikonov_est(F,d)
-est_arr = np.reshape(m_est,img_shape)
-est_img = Image.fromarray(est_arr)
-est_img.show()
+
+    #making F and d
+    F = np.zeros((len(cells_information),prod(img_shape)))
+
+    for i in range(len(cells_information)):
+        # print(i)
+        cells = cells_information[i] 
+        for cell in cells:
+            lst_idx = arr_indx_to_lst_indx(cell,img_shape)
+            F[i,lst_idx] = 1
+
+
+    m_real = np.reshape(arr,(prod(img_shape),1))
+
+    d = np.matmul(F,m_real)
+    if with_noise:
+        img_name += "_noise"
+        d = d + 0.05*d*np.random.normal(0,1,d.shape)
+
+    print(F.shape)
+    F_dag = tikonov_inverse(F)
+    m_est = np.matmul(F_dag,d)
+    model_res = np.matmul(F_dag,F)
+    data_res = np.matmul(F,F_dag)
+    matrix_img(model_res,"Model Resolution Matrix ("+img_name+")")
+    plt.savefig("images/outputs/modelres/"+img_name)
+    plt.show()
+    matrix_img(data_res,"Data Resolution Matrix ("+img_name+")")
+    plt.savefig("images/outputs/datares/"+img_name)
+    plt.show()
+    est_arr = np.reshape(m_est,img_shape)
+    print(est_arr.shape)
+    est_img = Image.fromarray(est_arr)
+    est_img.show()
+    est_img = est_img.convert('RGB')
+    if with_noise:
+        est_img.save("images/outputs/noise/"+img_name+".png")
+    else:
+        est_img.save("images/outputs/"+img_name+".png")
 
 # # # arr_idx = (10,5)
 # # arr_shape = (11,6)
