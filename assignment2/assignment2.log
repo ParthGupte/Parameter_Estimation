@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.8.13)  22 OCT 2023 20:12
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.8.13)  22 OCT 2023 23:10
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -82,83 +82,122 @@ Package: pgffor 2023-01-15 v3.1.10 (3.1.10)
 \pgffor@skip=\dimen155
 \pgffor@stack=\toks25
 \pgffor@toks=\toks26
-)) (/usr/local/texlive/2023/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+)) (/usr/local/texlive/2023/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count199
+\lst@gtempboxa=\box53
+\lst@token=\toks27
+\lst@length=\count266
+\lst@currlwidth=\dimen156
+\lst@column=\count267
+\lst@pos=\count268
+\lst@lostspace=\dimen157
+\lst@width=\dimen158
+\lst@newlines=\count269
+\lst@lineno=\count270
+\lst@maxwidth=\dimen159
+ (/usr/local/texlive/2023/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2023/02/27 1.9 (Carsten Heinz)
+\c@lstnumber=\count271
+\lst@skipnumbers=\count272
+\lst@framebox=\box54
+) (/usr/local/texlive/2023/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2023/02/27 1.9 listings configuration
+))
+Package: listings 2023/02/27 1.9 (Carsten Heinz)
+ (/usr/local/texlive/2023/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2022/06/12 v2.14 LaTeX color extensions (UK)
+ (/usr/local/texlive/2023/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 227.
+ (/usr/local/texlive/2023/texmf-dist/tex/latex/graphics/mathcolor.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1353.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1357.
+Package xcolor Info: Model `RGB' extended on input line 1369.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1371.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1372.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1373.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1374.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1375.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1376.
+) (/usr/local/texlive/2023/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2023-04-19 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count199
-\l__pdf_internal_box=\box53
+\l__color_backend_stack_int=\count273
+\l__pdf_internal_box=\box55
 ) (./assignment2.aux)
 \openout1 = `assignment2.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
  (/usr/local/texlive/2023/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count266
-\scratchdimen=\dimen156
-\scratchbox=\box54
-\nofMPsegments=\count267
-\nofMParguments=\count268
-\everyMPshowfont=\toks27
-\MPscratchCnt=\count269
-\MPscratchDim=\dimen157
-\MPnumerator=\count270
-\makeMPintoPDFobject=\count271
-\everyMPtoPDFconversion=\toks28
+\scratchcounter=\count274
+\scratchdimen=\dimen160
+\scratchbox=\box56
+\nofMPsegments=\count275
+\nofMParguments=\count276
+\everyMPshowfont=\toks28
+\MPscratchCnt=\count277
+\MPscratchDim=\dimen161
+\MPnumerator=\count278
+\makeMPintoPDFobject=\count279
+\everyMPtoPDFconversion=\toks29
 ) (/usr/local/texlive/2023/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
+\c@lstlisting=\count280
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 11.
+(Font)              <12> on input line 26.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 11.
+(Font)              <8> on input line 26.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 11.
+(Font)              <6> on input line 26.
 
-Underfull \hbox (badness 10000) in paragraph at lines 13--14
+Underfull \hbox (badness 10000) in paragraph at lines 28--29
 
  []
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 29.
+(Font)              <7> on input line 44.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 29.
+(Font)              <5> on input line 44.
 [1
 
 {/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}] [2]
 <images/greyscale/alban-modified.png, id=19, 32.12pt x 32.12pt>
 File: images/greyscale/alban-modified.png Graphic file (type png)
 <use images/greyscale/alban-modified.png>
-Package pdftex.def Info: images/greyscale/alban-modified.png  used on input line 50.
+Package pdftex.def Info: images/greyscale/alban-modified.png  used on input line 65.
 (pdftex.def)             Requested size: 207.0021pt x 207.06985pt.
 <images/outputs/alban-modified.png, id=21, 32.12pt x 32.12pt>
 File: images/outputs/alban-modified.png Graphic file (type png)
 <use images/outputs/alban-modified.png>
-Package pdftex.def Info: images/outputs/alban-modified.png  used on input line 55.
+Package pdftex.def Info: images/outputs/alban-modified.png  used on input line 70.
 (pdftex.def)             Requested size: 207.0021pt x 207.06985pt.
 <images/outputs/modelres/alban-modified.png, id=22, 462.528pt x 346.896pt>
 File: images/outputs/modelres/alban-modified.png Graphic file (type png)
 <use images/outputs/modelres/alban-modified.png>
-Package pdftex.def Info: images/outputs/modelres/alban-modified.png  used on input line 60.
+Package pdftex.def Info: images/outputs/modelres/alban-modified.png  used on input line 75.
 (pdftex.def)             Requested size: 345.0pt x 258.76335pt.
 <images/outputs/datares/alban-modified.png, id=23, 462.528pt x 346.896pt>
 File: images/outputs/datares/alban-modified.png Graphic file (type png)
 <use images/outputs/datares/alban-modified.png>
-Package pdftex.def Info: images/outputs/datares/alban-modified.png  used on input line 65.
+Package pdftex.def Info: images/outputs/datares/alban-modified.png  used on input line 80.
 (pdftex.def)             Requested size: 345.0pt x 258.76335pt.
 
 
@@ -176,22 +215,22 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 <images/greyscale/aztec-modified.png, id=36, 32.12pt x 32.12pt>
 File: images/greyscale/aztec-modified.png Graphic file (type png)
 <use images/greyscale/aztec-modified.png>
-Package pdftex.def Info: images/greyscale/aztec-modified.png  used on input line 74.
+Package pdftex.def Info: images/greyscale/aztec-modified.png  used on input line 89.
 (pdftex.def)             Requested size: 207.0021pt x 207.06985pt.
 <images/outputs/aztec-modified.png, id=37, 32.12pt x 32.12pt>
 File: images/outputs/aztec-modified.png Graphic file (type png)
 <use images/outputs/aztec-modified.png>
-Package pdftex.def Info: images/outputs/aztec-modified.png  used on input line 79.
+Package pdftex.def Info: images/outputs/aztec-modified.png  used on input line 94.
 (pdftex.def)             Requested size: 207.0021pt x 207.06985pt.
 <images/outputs/modelres/aztec-modified.png, id=38, 462.528pt x 346.896pt>
 File: images/outputs/modelres/aztec-modified.png Graphic file (type png)
 <use images/outputs/modelres/aztec-modified.png>
-Package pdftex.def Info: images/outputs/modelres/aztec-modified.png  used on input line 84.
+Package pdftex.def Info: images/outputs/modelres/aztec-modified.png  used on input line 99.
 (pdftex.def)             Requested size: 345.0pt x 258.76335pt.
 <images/outputs/datares/aztec-modified.png, id=39, 462.528pt x 346.896pt>
 File: images/outputs/datares/aztec-modified.png Graphic file (type png)
 <use images/outputs/datares/aztec-modified.png>
-Package pdftex.def Info: images/outputs/datares/aztec-modified.png  used on input line 89.
+Package pdftex.def Info: images/outputs/datares/aztec-modified.png  used on input line 104.
 (pdftex.def)             Requested size: 345.0pt x 258.76335pt.
 
 
@@ -209,22 +248,22 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 <images/greyscale/bee_nest_front_honey-modified.png, id=53, 16.06pt x 16.06pt>
 File: images/greyscale/bee_nest_front_honey-modified.png Graphic file (type png)
 <use images/greyscale/bee_nest_front_honey-modified.png>
-Package pdftex.def Info: images/greyscale/bee_nest_front_honey-modified.png  used on input line 98.
+Package pdftex.def Info: images/greyscale/bee_nest_front_honey-modified.png  used on input line 113.
 (pdftex.def)             Requested size: 207.0021pt x 207.17058pt.
 <images/outputs/bee_nest_front_honey-modified.png, id=54, 16.06pt x 16.06pt>
 File: images/outputs/bee_nest_front_honey-modified.png Graphic file (type png)
 <use images/outputs/bee_nest_front_honey-modified.png>
-Package pdftex.def Info: images/outputs/bee_nest_front_honey-modified.png  used on input line 103.
+Package pdftex.def Info: images/outputs/bee_nest_front_honey-modified.png  used on input line 118.
 (pdftex.def)             Requested size: 207.0021pt x 207.17058pt.
 <images/outputs/modelres/bee_nest_front_honey-modified.png, id=55, 462.528pt x 346.896pt>
 File: images/outputs/modelres/bee_nest_front_honey-modified.png Graphic file (type png)
 <use images/outputs/modelres/bee_nest_front_honey-modified.png>
-Package pdftex.def Info: images/outputs/modelres/bee_nest_front_honey-modified.png  used on input line 108.
+Package pdftex.def Info: images/outputs/modelres/bee_nest_front_honey-modified.png  used on input line 123.
 (pdftex.def)             Requested size: 345.0pt x 258.76335pt.
 <images/outputs/datares/bee_nest_front_honey-modified.png, id=56, 462.528pt x 346.896pt>
 File: images/outputs/datares/bee_nest_front_honey-modified.png Graphic file (type png)
 <use images/outputs/datares/bee_nest_front_honey-modified.png>
-Package pdftex.def Info: images/outputs/datares/bee_nest_front_honey-modified.png  used on input line 113.
+Package pdftex.def Info: images/outputs/datares/bee_nest_front_honey-modified.png  used on input line 128.
 (pdftex.def)             Requested size: 345.0pt x 258.76335pt.
 
 
@@ -242,22 +281,22 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 <images/greyscale/carved_pumpkin-modified.png, id=69, 16.06pt x 16.06pt>
 File: images/greyscale/carved_pumpkin-modified.png Graphic file (type png)
 <use images/greyscale/carved_pumpkin-modified.png>
-Package pdftex.def Info: images/greyscale/carved_pumpkin-modified.png  used on input line 122.
+Package pdftex.def Info: images/greyscale/carved_pumpkin-modified.png  used on input line 137.
 (pdftex.def)             Requested size: 207.0021pt x 207.17058pt.
 <images/outputs/carved_pumpkin-modified.png, id=70, 16.06pt x 16.06pt>
 File: images/outputs/carved_pumpkin-modified.png Graphic file (type png)
 <use images/outputs/carved_pumpkin-modified.png>
-Package pdftex.def Info: images/outputs/carved_pumpkin-modified.png  used on input line 127.
+Package pdftex.def Info: images/outputs/carved_pumpkin-modified.png  used on input line 142.
 (pdftex.def)             Requested size: 207.0021pt x 207.17058pt.
 <images/outputs/modelres/carved_pumpkin-modified.png, id=71, 462.528pt x 346.896pt>
 File: images/outputs/modelres/carved_pumpkin-modified.png Graphic file (type png)
 <use images/outputs/modelres/carved_pumpkin-modified.png>
-Package pdftex.def Info: images/outputs/modelres/carved_pumpkin-modified.png  used on input line 132.
+Package pdftex.def Info: images/outputs/modelres/carved_pumpkin-modified.png  used on input line 147.
 (pdftex.def)             Requested size: 345.0pt x 258.76335pt.
 <images/outputs/datares/carved_pumpkin-modified.png, id=72, 462.528pt x 346.896pt>
 File: images/outputs/datares/carved_pumpkin-modified.png Graphic file (type png)
 <use images/outputs/datares/carved_pumpkin-modified.png>
-Package pdftex.def Info: images/outputs/datares/carved_pumpkin-modified.png  used on input line 137.
+Package pdftex.def Info: images/outputs/datares/carved_pumpkin-modified.png  used on input line 152.
 (pdftex.def)             Requested size: 345.0pt x 258.76335pt.
 
 
@@ -275,22 +314,22 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 <images/greyscale/cow.png, id=86, 10.0375pt x 8.03pt>
 File: images/greyscale/cow.png Graphic file (type png)
 <use images/greyscale/cow.png>
-Package pdftex.def Info: images/greyscale/cow.png  used on input line 146.
+Package pdftex.def Info: images/greyscale/cow.png  used on input line 161.
 (pdftex.def)             Requested size: 207.0021pt x 165.7041pt.
 <images/outputs/cow.png, id=87, 10.0375pt x 8.03pt>
 File: images/outputs/cow.png Graphic file (type png)
 <use images/outputs/cow.png>
-Package pdftex.def Info: images/outputs/cow.png  used on input line 151.
+Package pdftex.def Info: images/outputs/cow.png  used on input line 166.
 (pdftex.def)             Requested size: 207.0021pt x 165.7041pt.
 <images/outputs/modelres/cow.png, id=88, 462.528pt x 346.896pt>
 File: images/outputs/modelres/cow.png Graphic file (type png)
 <use images/outputs/modelres/cow.png>
-Package pdftex.def Info: images/outputs/modelres/cow.png  used on input line 156.
+Package pdftex.def Info: images/outputs/modelres/cow.png  used on input line 171.
 (pdftex.def)             Requested size: 345.0pt x 258.76335pt.
 <images/outputs/datares/cow.png, id=89, 462.528pt x 346.896pt>
 File: images/outputs/datares/cow.png Graphic file (type png)
 <use images/outputs/datares/cow.png>
-Package pdftex.def Info: images/outputs/datares/cow.png  used on input line 161.
+Package pdftex.def Info: images/outputs/datares/cow.png  used on input line 176.
 (pdftex.def)             Requested size: 345.0pt x 258.76335pt.
 
 
@@ -305,22 +344,22 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 <images/greyscale/creeper.png, id=102, 8.03pt x 8.03pt>
 File: images/greyscale/creeper.png Graphic file (type png)
 <use images/greyscale/creeper.png>
-Package pdftex.def Info: images/greyscale/creeper.png  used on input line 170.
+Package pdftex.def Info: images/greyscale/creeper.png  used on input line 185.
 (pdftex.def)             Requested size: 207.0021pt x 207.37242pt.
 <images/outputs/creeper.png, id=103, 8.03pt x 8.03pt>
 File: images/outputs/creeper.png Graphic file (type png)
 <use images/outputs/creeper.png>
-Package pdftex.def Info: images/outputs/creeper.png  used on input line 175.
+Package pdftex.def Info: images/outputs/creeper.png  used on input line 190.
 (pdftex.def)             Requested size: 207.0021pt x 207.37242pt.
 <images/outputs/modelres/creeper.png, id=104, 462.528pt x 346.896pt>
 File: images/outputs/modelres/creeper.png Graphic file (type png)
 <use images/outputs/modelres/creeper.png>
-Package pdftex.def Info: images/outputs/modelres/creeper.png  used on input line 180.
+Package pdftex.def Info: images/outputs/modelres/creeper.png  used on input line 195.
 (pdftex.def)             Requested size: 345.0pt x 258.76335pt.
 <images/outputs/datares/creeper.png, id=105, 462.528pt x 346.896pt>
 File: images/outputs/datares/creeper.png Graphic file (type png)
 <use images/outputs/datares/creeper.png>
-Package pdftex.def Info: images/outputs/datares/creeper.png  used on input line 185.
+Package pdftex.def Info: images/outputs/datares/creeper.png  used on input line 200.
 (pdftex.def)             Requested size: 345.0pt x 258.76335pt.
 
 
@@ -338,22 +377,22 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 <images/greyscale/sheep.png, id=119, 8.03pt x 6.0225pt>
 File: images/greyscale/sheep.png Graphic file (type png)
 <use images/greyscale/sheep.png>
-Package pdftex.def Info: images/greyscale/sheep.png  used on input line 194.
+Package pdftex.def Info: images/greyscale/sheep.png  used on input line 209.
 (pdftex.def)             Requested size: 207.0021pt x 155.52931pt.
 <images/outputs/sheep.png, id=120, 8.03pt x 6.0225pt>
 File: images/outputs/sheep.png Graphic file (type png)
 <use images/outputs/sheep.png>
-Package pdftex.def Info: images/outputs/sheep.png  used on input line 199.
+Package pdftex.def Info: images/outputs/sheep.png  used on input line 214.
 (pdftex.def)             Requested size: 207.0021pt x 155.52931pt.
 <images/outputs/modelres/sheep.png, id=121, 462.528pt x 346.896pt>
 File: images/outputs/modelres/sheep.png Graphic file (type png)
 <use images/outputs/modelres/sheep.png>
-Package pdftex.def Info: images/outputs/modelres/sheep.png  used on input line 204.
+Package pdftex.def Info: images/outputs/modelres/sheep.png  used on input line 219.
 (pdftex.def)             Requested size: 345.0pt x 258.76335pt.
 <images/outputs/datares/sheep.png, id=122, 462.528pt x 346.896pt>
 File: images/outputs/datares/sheep.png Graphic file (type png)
 <use images/outputs/datares/sheep.png>
-Package pdftex.def Info: images/outputs/datares/sheep.png  used on input line 209.
+Package pdftex.def Info: images/outputs/datares/sheep.png  used on input line 224.
 (pdftex.def)             Requested size: 345.0pt x 258.76335pt.
 
 
@@ -368,22 +407,22 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 <images/greyscale/skeleton.png, id=135, 8.03pt x 8.03pt>
 File: images/greyscale/skeleton.png Graphic file (type png)
 <use images/greyscale/skeleton.png>
-Package pdftex.def Info: images/greyscale/skeleton.png  used on input line 218.
+Package pdftex.def Info: images/greyscale/skeleton.png  used on input line 233.
 (pdftex.def)             Requested size: 207.0021pt x 207.37242pt.
 <images/outputs/skeleton.png, id=136, 8.03pt x 8.03pt>
 File: images/outputs/skeleton.png Graphic file (type png)
 <use images/outputs/skeleton.png>
-Package pdftex.def Info: images/outputs/skeleton.png  used on input line 223.
+Package pdftex.def Info: images/outputs/skeleton.png  used on input line 238.
 (pdftex.def)             Requested size: 207.0021pt x 207.37242pt.
 <images/outputs/modelres/skeleton.png, id=137, 462.528pt x 346.896pt>
 File: images/outputs/modelres/skeleton.png Graphic file (type png)
 <use images/outputs/modelres/skeleton.png>
-Package pdftex.def Info: images/outputs/modelres/skeleton.png  used on input line 228.
+Package pdftex.def Info: images/outputs/modelres/skeleton.png  used on input line 243.
 (pdftex.def)             Requested size: 345.0pt x 258.76335pt.
 <images/outputs/datares/skeleton.png, id=138, 462.528pt x 346.896pt>
 File: images/outputs/datares/skeleton.png Graphic file (type png)
 <use images/outputs/datares/skeleton.png>
-Package pdftex.def Info: images/outputs/datares/skeleton.png  used on input line 233.
+Package pdftex.def Info: images/outputs/datares/skeleton.png  used on input line 248.
 (pdftex.def)             Requested size: 345.0pt x 258.76335pt.
 
 
@@ -401,22 +440,22 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 <images/greyscale/steve.png, id=152, 10.0375pt x 8.03pt>
 File: images/greyscale/steve.png Graphic file (type png)
 <use images/greyscale/steve.png>
-Package pdftex.def Info: images/greyscale/steve.png  used on input line 242.
+Package pdftex.def Info: images/greyscale/steve.png  used on input line 257.
 (pdftex.def)             Requested size: 207.0021pt x 165.7041pt.
 <images/outputs/steve.png, id=153, 10.0375pt x 8.03pt>
 File: images/outputs/steve.png Graphic file (type png)
 <use images/outputs/steve.png>
-Package pdftex.def Info: images/outputs/steve.png  used on input line 247.
+Package pdftex.def Info: images/outputs/steve.png  used on input line 262.
 (pdftex.def)             Requested size: 207.0021pt x 165.7041pt.
 <images/outputs/modelres/steve.png, id=154, 462.528pt x 346.896pt>
 File: images/outputs/modelres/steve.png Graphic file (type png)
 <use images/outputs/modelres/steve.png>
-Package pdftex.def Info: images/outputs/modelres/steve.png  used on input line 252.
+Package pdftex.def Info: images/outputs/modelres/steve.png  used on input line 267.
 (pdftex.def)             Requested size: 345.0pt x 258.76335pt.
 <images/outputs/datares/steve.png, id=155, 462.528pt x 346.896pt>
 File: images/outputs/datares/steve.png Graphic file (type png)
 <use images/outputs/datares/steve.png>
-Package pdftex.def Info: images/outputs/datares/steve.png  used on input line 257.
+Package pdftex.def Info: images/outputs/datares/steve.png  used on input line 272.
 (pdftex.def)             Requested size: 345.0pt x 258.76335pt.
 
 
@@ -431,22 +470,22 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 <images/greyscale/zombie.png, id=168, 8.03pt x 8.03pt>
 File: images/greyscale/zombie.png Graphic file (type png)
 <use images/greyscale/zombie.png>
-Package pdftex.def Info: images/greyscale/zombie.png  used on input line 266.
+Package pdftex.def Info: images/greyscale/zombie.png  used on input line 281.
 (pdftex.def)             Requested size: 207.0021pt x 207.37242pt.
 <images/outputs/zombie.png, id=169, 8.03pt x 8.03pt>
 File: images/outputs/zombie.png Graphic file (type png)
 <use images/outputs/zombie.png>
-Package pdftex.def Info: images/outputs/zombie.png  used on input line 271.
+Package pdftex.def Info: images/outputs/zombie.png  used on input line 286.
 (pdftex.def)             Requested size: 207.0021pt x 207.37242pt.
 <images/outputs/modelres/zombie.png, id=170, 462.528pt x 346.896pt>
 File: images/outputs/modelres/zombie.png Graphic file (type png)
 <use images/outputs/modelres/zombie.png>
-Package pdftex.def Info: images/outputs/modelres/zombie.png  used on input line 276.
+Package pdftex.def Info: images/outputs/modelres/zombie.png  used on input line 291.
 (pdftex.def)             Requested size: 345.0pt x 258.76335pt.
 <images/outputs/datares/zombie.png, id=171, 462.528pt x 346.896pt>
 File: images/outputs/datares/zombie.png Graphic file (type png)
 <use images/outputs/datares/zombie.png>
-Package pdftex.def Info: images/outputs/datares/zombie.png  used on input line 281.
+Package pdftex.def Info: images/outputs/datares/zombie.png  used on input line 296.
 (pdftex.def)             Requested size: 345.0pt x 258.76335pt.
 
 
@@ -463,22 +502,22 @@ LaTeX Warning: `h' float specifier changed to `ht'.
  <./images/greyscale/zombie.png>] [31 <./images/outputs/zombie.png (PNG copy)> <./images/outputs/modelres/zombie.png>] [32 <./images/outputs/datares/zombie.png>]
 File: images/greyscale/alban-modified.png Graphic file (type png)
 <use images/greyscale/alban-modified.png>
-Package pdftex.def Info: images/greyscale/alban-modified.png  used on input line 293.
+Package pdftex.def Info: images/greyscale/alban-modified.png  used on input line 308.
 (pdftex.def)             Requested size: 207.0021pt x 207.06985pt.
 <images/outputs/noise/alban-modified_noise.png, id=185, 32.12pt x 32.12pt>
 File: images/outputs/noise/alban-modified_noise.png Graphic file (type png)
 <use images/outputs/noise/alban-modified_noise.png>
-Package pdftex.def Info: images/outputs/noise/alban-modified_noise.png  used on input line 298.
+Package pdftex.def Info: images/outputs/noise/alban-modified_noise.png  used on input line 313.
 (pdftex.def)             Requested size: 207.0021pt x 207.06985pt.
 <images/outputs/modelres/alban-modified_noise.png, id=186, 462.528pt x 346.896pt>
 File: images/outputs/modelres/alban-modified_noise.png Graphic file (type png)
 <use images/outputs/modelres/alban-modified_noise.png>
-Package pdftex.def Info: images/outputs/modelres/alban-modified_noise.png  used on input line 303.
+Package pdftex.def Info: images/outputs/modelres/alban-modified_noise.png  used on input line 318.
 (pdftex.def)             Requested size: 345.0pt x 258.76335pt.
 <images/outputs/datares/alban-modified_noise.png, id=187, 462.528pt x 346.896pt>
 File: images/outputs/datares/alban-modified_noise.png Graphic file (type png)
 <use images/outputs/datares/alban-modified_noise.png>
-Package pdftex.def Info: images/outputs/datares/alban-modified_noise.png  used on input line 308.
+Package pdftex.def Info: images/outputs/datares/alban-modified_noise.png  used on input line 323.
 (pdftex.def)             Requested size: 345.0pt x 258.76335pt.
 
 
@@ -495,22 +534,22 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 ] [34 <./images/outputs/noise/alban-modified_noise.png (PNG copy)> <./images/outputs/modelres/alban-modified_noise.png>] [35 <./images/outputs/datares/alban-modified_noise.png>]
 File: images/greyscale/aztec-modified.png Graphic file (type png)
 <use images/greyscale/aztec-modified.png>
-Package pdftex.def Info: images/greyscale/aztec-modified.png  used on input line 317.
+Package pdftex.def Info: images/greyscale/aztec-modified.png  used on input line 332.
 (pdftex.def)             Requested size: 207.0021pt x 207.06985pt.
 <images/outputs/noise/aztec-modified_noise.png, id=199, 32.12pt x 32.12pt>
 File: images/outputs/noise/aztec-modified_noise.png Graphic file (type png)
 <use images/outputs/noise/aztec-modified_noise.png>
-Package pdftex.def Info: images/outputs/noise/aztec-modified_noise.png  used on input line 322.
+Package pdftex.def Info: images/outputs/noise/aztec-modified_noise.png  used on input line 337.
 (pdftex.def)             Requested size: 207.0021pt x 207.06985pt.
 <images/outputs/modelres/aztec-modified_noise.png, id=200, 462.528pt x 346.896pt>
 File: images/outputs/modelres/aztec-modified_noise.png Graphic file (type png)
 <use images/outputs/modelres/aztec-modified_noise.png>
-Package pdftex.def Info: images/outputs/modelres/aztec-modified_noise.png  used on input line 327.
+Package pdftex.def Info: images/outputs/modelres/aztec-modified_noise.png  used on input line 342.
 (pdftex.def)             Requested size: 345.0pt x 258.76335pt.
 <images/outputs/datares/aztec-modified_noise.png, id=201, 462.528pt x 346.896pt>
 File: images/outputs/datares/aztec-modified_noise.png Graphic file (type png)
 <use images/outputs/datares/aztec-modified_noise.png>
-Package pdftex.def Info: images/outputs/datares/aztec-modified_noise.png  used on input line 332.
+Package pdftex.def Info: images/outputs/datares/aztec-modified_noise.png  used on input line 347.
 (pdftex.def)             Requested size: 345.0pt x 258.76335pt.
 
 
@@ -527,22 +566,22 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 ] [37 <./images/outputs/noise/aztec-modified_noise.png (PNG copy)> <./images/outputs/modelres/aztec-modified_noise.png>] [38 <./images/outputs/datares/aztec-modified_noise.png>]
 File: images/greyscale/bee_nest_front_honey-modified.png Graphic file (type png)
 <use images/greyscale/bee_nest_front_honey-modified.png>
-Package pdftex.def Info: images/greyscale/bee_nest_front_honey-modified.png  used on input line 341.
+Package pdftex.def Info: images/greyscale/bee_nest_front_honey-modified.png  used on input line 356.
 (pdftex.def)             Requested size: 207.0021pt x 207.17058pt.
 <images/outputs/noise/bee_nest_front_honey-modified_noise.png, id=214, 16.06pt x 16.06pt>
 File: images/outputs/noise/bee_nest_front_honey-modified_noise.png Graphic file (type png)
 <use images/outputs/noise/bee_nest_front_honey-modified_noise.png>
-Package pdftex.def Info: images/outputs/noise/bee_nest_front_honey-modified_noise.png  used on input line 346.
+Package pdftex.def Info: images/outputs/noise/bee_nest_front_honey-modified_noise.png  used on input line 361.
 (pdftex.def)             Requested size: 207.0021pt x 207.17058pt.
 <images/outputs/modelres/bee_nest_front_honey-modified_noise.png, id=215, 462.528pt x 346.896pt>
 File: images/outputs/modelres/bee_nest_front_honey-modified_noise.png Graphic file (type png)
 <use images/outputs/modelres/bee_nest_front_honey-modified_noise.png>
-Package pdftex.def Info: images/outputs/modelres/bee_nest_front_honey-modified_noise.png  used on input line 351.
+Package pdftex.def Info: images/outputs/modelres/bee_nest_front_honey-modified_noise.png  used on input line 366.
 (pdftex.def)             Requested size: 345.0pt x 258.76335pt.
 <images/outputs/datares/bee_nest_front_honey-modified_noise.png, id=216, 462.528pt x 346.896pt>
 File: images/outputs/datares/bee_nest_front_honey-modified_noise.png Graphic file (type png)
 <use images/outputs/datares/bee_nest_front_honey-modified_noise.png>
-Package pdftex.def Info: images/outputs/datares/bee_nest_front_honey-modified_noise.png  used on input line 356.
+Package pdftex.def Info: images/outputs/datares/bee_nest_front_honey-modified_noise.png  used on input line 371.
 (pdftex.def)             Requested size: 345.0pt x 258.76335pt.
 
 
@@ -559,22 +598,22 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 ] [40 <./images/outputs/noise/bee_nest_front_honey-modified_noise.png (PNG copy)> <./images/outputs/modelres/bee_nest_front_honey-modified_noise.png>] [41 <./images/outputs/datares/bee_nest_front_honey-modified_noise.png>]
 File: images/greyscale/carved_pumpkin-modified.png Graphic file (type png)
 <use images/greyscale/carved_pumpkin-modified.png>
-Package pdftex.def Info: images/greyscale/carved_pumpkin-modified.png  used on input line 365.
+Package pdftex.def Info: images/greyscale/carved_pumpkin-modified.png  used on input line 380.
 (pdftex.def)             Requested size: 207.0021pt x 207.17058pt.
 <images/outputs/noise/carved_pumpkin-modified_noise.png, id=228, 16.06pt x 16.06pt>
 File: images/outputs/noise/carved_pumpkin-modified_noise.png Graphic file (type png)
 <use images/outputs/noise/carved_pumpkin-modified_noise.png>
-Package pdftex.def Info: images/outputs/noise/carved_pumpkin-modified_noise.png  used on input line 370.
+Package pdftex.def Info: images/outputs/noise/carved_pumpkin-modified_noise.png  used on input line 385.
 (pdftex.def)             Requested size: 207.0021pt x 207.17058pt.
 <images/outputs/modelres/carved_pumpkin-modified_noise.png, id=229, 462.528pt x 346.896pt>
 File: images/outputs/modelres/carved_pumpkin-modified_noise.png Graphic file (type png)
 <use images/outputs/modelres/carved_pumpkin-modified_noise.png>
-Package pdftex.def Info: images/outputs/modelres/carved_pumpkin-modified_noise.png  used on input line 375.
+Package pdftex.def Info: images/outputs/modelres/carved_pumpkin-modified_noise.png  used on input line 390.
 (pdftex.def)             Requested size: 345.0pt x 258.76335pt.
 <images/outputs/datares/carved_pumpkin-modified_noise.png, id=230, 462.528pt x 346.896pt>
 File: images/outputs/datares/carved_pumpkin-modified_noise.png Graphic file (type png)
 <use images/outputs/datares/carved_pumpkin-modified_noise.png>
-Package pdftex.def Info: images/outputs/datares/carved_pumpkin-modified_noise.png  used on input line 380.
+Package pdftex.def Info: images/outputs/datares/carved_pumpkin-modified_noise.png  used on input line 395.
 (pdftex.def)             Requested size: 345.0pt x 258.76335pt.
 
 
@@ -591,22 +630,22 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 ] [43 <./images/outputs/noise/carved_pumpkin-modified_noise.png (PNG copy)> <./images/outputs/modelres/carved_pumpkin-modified_noise.png>] [44 <./images/outputs/datares/carved_pumpkin-modified_noise.png>]
 File: images/greyscale/cow.png Graphic file (type png)
 <use images/greyscale/cow.png>
-Package pdftex.def Info: images/greyscale/cow.png  used on input line 389.
+Package pdftex.def Info: images/greyscale/cow.png  used on input line 404.
 (pdftex.def)             Requested size: 207.0021pt x 165.7041pt.
 <images/outputs/noise/cow_noise.png, id=243, 10.0375pt x 8.03pt>
 File: images/outputs/noise/cow_noise.png Graphic file (type png)
 <use images/outputs/noise/cow_noise.png>
-Package pdftex.def Info: images/outputs/noise/cow_noise.png  used on input line 394.
+Package pdftex.def Info: images/outputs/noise/cow_noise.png  used on input line 409.
 (pdftex.def)             Requested size: 207.0021pt x 165.7041pt.
 <images/outputs/modelres/cow_noise.png, id=244, 462.528pt x 346.896pt>
 File: images/outputs/modelres/cow_noise.png Graphic file (type png)
 <use images/outputs/modelres/cow_noise.png>
-Package pdftex.def Info: images/outputs/modelres/cow_noise.png  used on input line 399.
+Package pdftex.def Info: images/outputs/modelres/cow_noise.png  used on input line 414.
 (pdftex.def)             Requested size: 345.0pt x 258.76335pt.
 <images/outputs/datares/cow_noise.png, id=245, 462.528pt x 346.896pt>
 File: images/outputs/datares/cow_noise.png Graphic file (type png)
 <use images/outputs/datares/cow_noise.png>
-Package pdftex.def Info: images/outputs/datares/cow_noise.png  used on input line 404.
+Package pdftex.def Info: images/outputs/datares/cow_noise.png  used on input line 419.
 (pdftex.def)             Requested size: 345.0pt x 258.76335pt.
 
 
@@ -620,22 +659,22 @@ LaTeX Warning: `h' float specifier changed to `ht'.
  <./images/outputs/noise/cow_noise.png (PNG copy)>] [46 <./images/outputs/modelres/cow_noise.png>] [47 <./images/outputs/datares/cow_noise.png>]
 File: images/greyscale/creeper.png Graphic file (type png)
 <use images/greyscale/creeper.png>
-Package pdftex.def Info: images/greyscale/creeper.png  used on input line 413.
+Package pdftex.def Info: images/greyscale/creeper.png  used on input line 428.
 (pdftex.def)             Requested size: 207.0021pt x 207.37242pt.
 <images/outputs/noise/creeper_noise.png, id=257, 8.03pt x 8.03pt>
 File: images/outputs/noise/creeper_noise.png Graphic file (type png)
 <use images/outputs/noise/creeper_noise.png>
-Package pdftex.def Info: images/outputs/noise/creeper_noise.png  used on input line 418.
+Package pdftex.def Info: images/outputs/noise/creeper_noise.png  used on input line 433.
 (pdftex.def)             Requested size: 207.0021pt x 207.37242pt.
 <images/outputs/modelres/creeper_noise.png, id=258, 462.528pt x 346.896pt>
 File: images/outputs/modelres/creeper_noise.png Graphic file (type png)
 <use images/outputs/modelres/creeper_noise.png>
-Package pdftex.def Info: images/outputs/modelres/creeper_noise.png  used on input line 423.
+Package pdftex.def Info: images/outputs/modelres/creeper_noise.png  used on input line 438.
 (pdftex.def)             Requested size: 345.0pt x 258.76335pt.
 <images/outputs/datares/creeper_noise.png, id=259, 462.528pt x 346.896pt>
 File: images/outputs/datares/creeper_noise.png Graphic file (type png)
 <use images/outputs/datares/creeper_noise.png>
-Package pdftex.def Info: images/outputs/datares/creeper_noise.png  used on input line 428.
+Package pdftex.def Info: images/outputs/datares/creeper_noise.png  used on input line 443.
 (pdftex.def)             Requested size: 345.0pt x 258.76335pt.
 
 
@@ -652,22 +691,22 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 ] [49 <./images/outputs/noise/creeper_noise.png (PNG copy)> <./images/outputs/modelres/creeper_noise.png>] [50 <./images/outputs/datares/creeper_noise.png>]
 File: images/greyscale/sheep.png Graphic file (type png)
 <use images/greyscale/sheep.png>
-Package pdftex.def Info: images/greyscale/sheep.png  used on input line 437.
+Package pdftex.def Info: images/greyscale/sheep.png  used on input line 452.
 (pdftex.def)             Requested size: 207.0021pt x 155.52931pt.
 <images/outputs/noise/sheep_noise.png, id=273, 8.03pt x 6.0225pt>
 File: images/outputs/noise/sheep_noise.png Graphic file (type png)
 <use images/outputs/noise/sheep_noise.png>
-Package pdftex.def Info: images/outputs/noise/sheep_noise.png  used on input line 442.
+Package pdftex.def Info: images/outputs/noise/sheep_noise.png  used on input line 457.
 (pdftex.def)             Requested size: 207.0021pt x 155.52931pt.
 <images/outputs/modelres/sheep_noise.png, id=274, 462.528pt x 346.896pt>
 File: images/outputs/modelres/sheep_noise.png Graphic file (type png)
 <use images/outputs/modelres/sheep_noise.png>
-Package pdftex.def Info: images/outputs/modelres/sheep_noise.png  used on input line 447.
+Package pdftex.def Info: images/outputs/modelres/sheep_noise.png  used on input line 462.
 (pdftex.def)             Requested size: 345.0pt x 258.76335pt.
 <images/outputs/datares/sheep_noise.png, id=275, 462.528pt x 346.896pt>
 File: images/outputs/datares/sheep_noise.png Graphic file (type png)
 <use images/outputs/datares/sheep_noise.png>
-Package pdftex.def Info: images/outputs/datares/sheep_noise.png  used on input line 452.
+Package pdftex.def Info: images/outputs/datares/sheep_noise.png  used on input line 467.
 (pdftex.def)             Requested size: 345.0pt x 258.76335pt.
 
 
@@ -681,22 +720,22 @@ LaTeX Warning: `h' float specifier changed to `ht'.
  <./images/outputs/noise/sheep_noise.png (PNG copy)>] [52 <./images/outputs/modelres/sheep_noise.png>] [53 <./images/outputs/datares/sheep_noise.png>]
 File: images/greyscale/skeleton.png Graphic file (type png)
 <use images/greyscale/skeleton.png>
-Package pdftex.def Info: images/greyscale/skeleton.png  used on input line 461.
+Package pdftex.def Info: images/greyscale/skeleton.png  used on input line 476.
 (pdftex.def)             Requested size: 207.0021pt x 207.37242pt.
 <images/outputs/noise/skeleton_noise.png, id=287, 8.03pt x 8.03pt>
 File: images/outputs/noise/skeleton_noise.png Graphic file (type png)
 <use images/outputs/noise/skeleton_noise.png>
-Package pdftex.def Info: images/outputs/noise/skeleton_noise.png  used on input line 466.
+Package pdftex.def Info: images/outputs/noise/skeleton_noise.png  used on input line 481.
 (pdftex.def)             Requested size: 207.0021pt x 207.37242pt.
 <images/outputs/modelres/skeleton_noise.png, id=288, 462.528pt x 346.896pt>
 File: images/outputs/modelres/skeleton_noise.png Graphic file (type png)
 <use images/outputs/modelres/skeleton_noise.png>
-Package pdftex.def Info: images/outputs/modelres/skeleton_noise.png  used on input line 471.
+Package pdftex.def Info: images/outputs/modelres/skeleton_noise.png  used on input line 486.
 (pdftex.def)             Requested size: 345.0pt x 258.76335pt.
 <images/outputs/datares/skeleton_noise.png, id=289, 462.528pt x 346.896pt>
 File: images/outputs/datares/skeleton_noise.png Graphic file (type png)
 <use images/outputs/datares/skeleton_noise.png>
-Package pdftex.def Info: images/outputs/datares/skeleton_noise.png  used on input line 476.
+Package pdftex.def Info: images/outputs/datares/skeleton_noise.png  used on input line 491.
 (pdftex.def)             Requested size: 345.0pt x 258.76335pt.
 
 
@@ -713,22 +752,22 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 ] [55 <./images/outputs/noise/skeleton_noise.png (PNG copy)> <./images/outputs/modelres/skeleton_noise.png>] [56 <./images/outputs/datares/skeleton_noise.png>]
 File: images/greyscale/steve.png Graphic file (type png)
 <use images/greyscale/steve.png>
-Package pdftex.def Info: images/greyscale/steve.png  used on input line 485.
+Package pdftex.def Info: images/greyscale/steve.png  used on input line 500.
 (pdftex.def)             Requested size: 207.0021pt x 165.7041pt.
 <images/outputs/noise/steve_noise.png, id=302, 10.0375pt x 8.03pt>
 File: images/outputs/noise/steve_noise.png Graphic file (type png)
 <use images/outputs/noise/steve_noise.png>
-Package pdftex.def Info: images/outputs/noise/steve_noise.png  used on input line 490.
+Package pdftex.def Info: images/outputs/noise/steve_noise.png  used on input line 505.
 (pdftex.def)             Requested size: 207.0021pt x 165.7041pt.
 <images/outputs/modelres/steve_noise.png, id=303, 462.528pt x 346.896pt>
 File: images/outputs/modelres/steve_noise.png Graphic file (type png)
 <use images/outputs/modelres/steve_noise.png>
-Package pdftex.def Info: images/outputs/modelres/steve_noise.png  used on input line 495.
+Package pdftex.def Info: images/outputs/modelres/steve_noise.png  used on input line 510.
 (pdftex.def)             Requested size: 345.0pt x 258.76335pt.
 <images/outputs/datares/steve_noise.png, id=304, 462.528pt x 346.896pt>
 File: images/outputs/datares/steve_noise.png Graphic file (type png)
 <use images/outputs/datares/steve_noise.png>
-Package pdftex.def Info: images/outputs/datares/steve_noise.png  used on input line 500.
+Package pdftex.def Info: images/outputs/datares/steve_noise.png  used on input line 515.
 (pdftex.def)             Requested size: 345.0pt x 258.76335pt.
 
 
@@ -742,22 +781,22 @@ LaTeX Warning: `h' float specifier changed to `ht'.
  <./images/outputs/noise/steve_noise.png (PNG copy)>] [58 <./images/outputs/modelres/steve_noise.png>] [59 <./images/outputs/datares/steve_noise.png>]
 File: images/greyscale/zombie.png Graphic file (type png)
 <use images/greyscale/zombie.png>
-Package pdftex.def Info: images/greyscale/zombie.png  used on input line 509.
+Package pdftex.def Info: images/greyscale/zombie.png  used on input line 524.
 (pdftex.def)             Requested size: 207.0021pt x 207.37242pt.
 <images/outputs/noise/zombie_noise.png, id=316, 8.03pt x 8.03pt>
 File: images/outputs/noise/zombie_noise.png Graphic file (type png)
 <use images/outputs/noise/zombie_noise.png>
-Package pdftex.def Info: images/outputs/noise/zombie_noise.png  used on input line 514.
+Package pdftex.def Info: images/outputs/noise/zombie_noise.png  used on input line 529.
 (pdftex.def)             Requested size: 207.0021pt x 207.37242pt.
 <images/outputs/modelres/zombie_noise.png, id=317, 462.528pt x 346.896pt>
 File: images/outputs/modelres/zombie_noise.png Graphic file (type png)
 <use images/outputs/modelres/zombie_noise.png>
-Package pdftex.def Info: images/outputs/modelres/zombie_noise.png  used on input line 519.
+Package pdftex.def Info: images/outputs/modelres/zombie_noise.png  used on input line 534.
 (pdftex.def)             Requested size: 345.0pt x 258.76335pt.
 <images/outputs/datares/zombie_noise.png, id=318, 462.528pt x 346.896pt>
 File: images/outputs/datares/zombie_noise.png Graphic file (type png)
 <use images/outputs/datares/zombie_noise.png>
-Package pdftex.def Info: images/outputs/datares/zombie_noise.png  used on input line 524.
+Package pdftex.def Info: images/outputs/datares/zombie_noise.png  used on input line 539.
 (pdftex.def)             Requested size: 345.0pt x 258.76335pt.
 
 
@@ -771,172 +810,29 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 [60
 
-] [61 <./images/outputs/noise/zombie_noise.png (PNG copy)> <./images/outputs/modelres/zombie_noise.png>] [62 <./images/outputs/datares/zombie_noise.png>]
-Overfull \hbox (80.24629pt too wide) in paragraph at lines 668--668
-[]\OT1/cmtt/m/n/10 # note to self everything other than Line is generalisable to n dims in this code[] 
- []
+] [61 <./images/outputs/noise/zombie_noise.png (PNG copy)> <./images/outputs/modelres/zombie_noise.png>] [62 <./images/outputs/datares/zombie_noise.png>] (/usr/local/texlive/2023/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2023/02/27 1.9 listings language file
+) [63
 
-[63
-
-]
-Overfull \hbox (893.9892pt too wide) in paragraph at lines 668--668
-[]\OT1/cmtt/m/n/10 img_names = ["alban-modified","aztec-modified","aztec2-modified","bee_nest_front_honey-modified","carved_pumpkin-modified","cow","creeper","fletching_table_front-modified","grass_block_side-modified","sheep","skeleton","steve","zombie"][] 
- []
-
-
-Overfull \hbox (74.99634pt too wide) in paragraph at lines 668--668
-[]        \OT1/cmtt/m/n/10 cells = get_crossing_cells(grid,ray,((0,img_shape[0]),(0,img_shape[1])))[] 
- []
-
-
-Overfull \hbox (74.99634pt too wide) in paragraph at lines 668--668
-[]        \OT1/cmtt/m/n/10 cells = get_crossing_cells(grid,ray,((0,img_shape[0]),(0,img_shape[1])))[] 
- []
-
-
-Overfull \hbox (53.99652pt too wide) in paragraph at lines 668--668
-[]    \OT1/cmtt/m/n/10 num_sources = int(2*mt.ceil((img_shape[0]**2 + img_shape[1]**2)**(1/2)))[] 
- []
-
-
-Overfull \hbox (74.99634pt too wide) in paragraph at lines 668--668
-[]        \OT1/cmtt/m/n/10 cells = get_crossing_cells(grid,ray,((0,img_shape[0]),(0,img_shape[1])))[] 
- []
-
-[64]
-Overfull \hbox (74.99634pt too wide) in paragraph at lines 668--668
-[]        \OT1/cmtt/m/n/10 cells = get_crossing_cells(grid,ray,((0,img_shape[0]),(0,img_shape[1])))[] 
- []
-
-
-Overfull \hbox (1.49698pt too wide) in paragraph at lines 668--668
-[]    \OT1/cmtt/m/n/10 matrix_img(model_res,"Model Resolution Matrix ("+img_name+")")[] 
- []
-
-[65]
-Overfull \hbox (43.49661pt too wide) in paragraph at lines 814--814
-[]    \OT1/cmtt/m/n/10 class makes a grid with cells numbered as (x,y,z) with no central cell[] 
- []
-
-
-Overfull \hbox (122.24593pt too wide) in paragraph at lines 814--814
-[]    \OT1/cmtt/m/n/10 The has centroid as coordinate point (0,0,0) is located at the intercetion of 8 cells[] 
- []
-
-
-Overfull \hbox (53.99652pt too wide) in paragraph at lines 814--814
-[]        \OT1/cmtt/m/n/10 def get_cell(self, coords): #returns which cell the coords belong to[] 
- []
-
-
-Overfull \hbox (74.99634pt too wide) in paragraph at lines 814--814
-[]                \OT1/cmtt/m/n/10 raise Exception("Coordinate of ",self.dim,"dimensions expected")[] 
- []
-
-
-Overfull \hbox (27.74675pt too wide) in paragraph at lines 814--814
-[]        \OT1/cmtt/m/n/10 def get_cell_center(self,cell): #returns the center of the cell[] 
- []
-
-[66]
-Overfull \hbox (253.49478pt too wide) in paragraph at lines 814--814
-[]        \OT1/cmtt/m/n/10 #creates a line passing through a point and having angle theta with +X axis (counter clockwise in degrees)[] 
- []
-
-
-Overfull \hbox (111.74602pt too wide) in paragraph at lines 814--814
-[]        \OT1/cmtt/m/n/10 def get_points_distanced(self,s,n): #n points equally distanced (s) from source[] 
- []
-
-
-Overfull \hbox (342.744pt too wide) in paragraph at lines 814--814
-[]    \OT1/cmtt/m/n/10 def get_crossing_cells(grid:Grid,line:Line,rang=((0,1000),(0,1000))): #get all the cells that the line crosses in a given range[] 
- []
-
-[67]
-Overfull \hbox (1.49698pt too wide) in paragraph at lines 814--814
-[]        \OT1/cmtt/m/n/10 pos_points = [pos_point1,pos_point2,pos_point3,pos_point4][] 
- []
-
-
-Overfull \hbox (326.99414pt too wide) in paragraph at lines 814--814
-[]            \OT1/cmtt/m/n/10 if pos_point[0] < rang[0][0] or pos_point[0] > rang[0][1] or pos_point[1] < rang[1][0] or pos_point[1] > rang[1][1]:[] 
- []
-
-
-Overfull \hbox (164.24556pt too wide) in paragraph at lines 814--814
-[]            \OT1/cmtt/m/n/10 points.extend(line.get_points_distanced_starting(start_dist,0.5,num_points_to_check))[] 
- []
-
-
-Overfull \hbox (169.49551pt too wide) in paragraph at lines 814--814
-[]            \OT1/cmtt/m/n/10 points.extend(line.get_points_distanced_starting(start_dist,-0.5,num_points_to_check))[] 
- []
-
-
-Overfull \hbox (174.74547pt too wide) in paragraph at lines 814--814
-[]            \OT1/cmtt/m/n/10 points.extend(line.get_points_distanced_starting(-start_dist,-0.5,num_points_to_check))[] 
- []
-
-
-Overfull \hbox (169.49551pt too wide) in paragraph at lines 814--814
-[]            \OT1/cmtt/m/n/10 points.extend(line.get_points_distanced_starting(-start_dist,0.5,num_points_to_check))[] 
- []
-
-[68]
-Overfull \hbox (206.2452pt too wide) in paragraph at lines 879--879
-[]    \OT1/cmtt/m/n/10 return np.matmul(np.linalg.inv((np.matmul(F.transpose(),F)+k*np.identity(F.shape[1]))),F.transpose())[] 
- []
-
-
-Overfull \hbox (80.24629pt too wide) in paragraph at lines 879--879
-[]    \OT1/cmtt/m/n/10 Enter a degree and a range and a model is generated for that range and degree[] 
- []
-
-
-Overfull \hbox (32.9967pt too wide) in paragraph at lines 879--879
-[]    \OT1/cmtt/m/n/10 m = np.random.uniform(low = rng[0], high = rng[1], size = (deg+1,1))[] 
- []
-
-
-Overfull \hbox (53.99652pt too wide) in paragraph at lines 879--879
-[]\OT1/cmtt/m/n/10 def gen_random_data(model:np.ndarray,size = 20, noise = 0.1,rng = (-10,10)):[] 
- []
-
-
-Overfull \hbox (80.24629pt too wide) in paragraph at lines 879--879
-[]    \OT1/cmtt/m/n/10 Enter a model, and data is generated for that model with added guassian noise[] 
- []
-
-[69]
-Overfull \hbox (38.24666pt too wide) in paragraph at lines 879--879
-[]    \OT1/cmtt/m/n/10 f_0 = np.random.uniform(low = rng[0], high = rng[1], size = (size,1))[] 
- []
-
-
-Overfull \hbox (6.74693pt too wide) in paragraph at lines 879--879
-[]    \OT1/cmtt/m/n/10 F = np.concatenate([f_0**i for i in range(len(model))], axis=1)[] 
- []
-
-[70] (./assignment2.aux)
+] [64] [65] [66] [67] [68] [69] [70] [71] (./assignment2.aux)
  ***********
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-08-11>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 6991 strings out of 475189
- 152627 string characters out of 5763838
- 1932254 words of memory out of 5000000
- 28236 multiletter control sequences out of 15000+600000
+ 9429 strings out of 475189
+ 183995 string characters out of 5763838
+ 2188254 words of memory out of 5000000
+ 30653 multiletter control sequences out of 15000+600000
  562827 words of font info for 52 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,7n,65p,422b,302s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on assignment2.pdf (70 pages, 1886410 bytes).
+ 57i,7n,65p,475b,1819s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
+Output written on assignment2.pdf (71 pages, 1914662 bytes).
 PDF statistics:
- 407 PDF objects out of 1000 (max. 8388607)
- 191 compressed objects within 2 object streams
+ 415 PDF objects out of 1000 (max. 8388607)
+ 196 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  351 words of extra memory for PDF output out of 10000 (max. 10000000)
 
