@@ -37,16 +37,43 @@ new_img = Image.fromarray(arr)
 
 #making grid for passing light
 grid = Grid(1,dim=2)
-#defining source points on all 4 sides of the img
-source_pts = [(-0.5,img_shape[1]/2),(img_shape[0]/2,-0.5),(img_shape[0]+0.5,img_shape[1]/2),(img_shape[0]/2,img_shape[1]+0.5)]
+
+#passing light
 cells_information = []
-for source in source_pts:
-    print(source)
-    for deg in range(0,180,2):
-        line = Line(deg,source)
-        cells = get_crossing_cells(grid,line,((0,img_shape[0]),(0,img_shape[1])))
-        # print(cells)
-        cells_information.append(cells)
+# light passing from below to up
+for x in range(img_shape[0]):
+    source = (x+0.5,-1)
+    ray = Line(91,source)
+    cells = get_crossing_cells(grid,ray,((0,img_shape[0]),(0,img_shape[1])))
+    cells_information.append(cells)
+#light passing from left to right
+for y in range(img_shape[1]):
+    source = (-1,y+0.5)
+    ray = Line(1,source)
+    cells = get_crossing_cells(grid,ray,((0,img_shape[0]),(0,img_shape[1])))
+    cells_information.append(cells)
+
+#light passing from diagonals
+line1 = Line(135,(-1,-1))
+num_sources = int(2*mt.ceil((img_shape[0]**2 + img_shape[1]**2)**(1/2)))
+sources = line1.get_points_distanced(0.5,num_sources)
+sources.extend(line1.get_points_distanced(-0.5,num_sources))
+for source in sources:
+    ray = Line(45,source)
+    cells = get_crossing_cells(grid,ray,((0,img_shape[0]),(0,img_shape[1])))
+    cells_information.append(cells)
+
+line2 = Line(45,(img_shape[0]+1,img_shape[1]+1))
+sources = line2.get_points_distanced(0.5,num_sources)
+sources.extend(line2.get_points_distanced(-0.5,num_sources))
+for source in sources:
+    ray = Line(135,source)
+    cells = get_crossing_cells(grid,ray,((0,img_shape[0]),(0,img_shape[1])))
+    cells_information.append(cells)
+
+
+
+
 
 #making F and d
 F = np.zeros((len(cells_information),prod(img_shape)))
